@@ -1,7 +1,7 @@
 import ModuleCard from "@/components/ModuleCard";
 import { Croissant, Users, DollarSign } from "lucide-react";
 
-export const MODULES = [
+const MODULES = [
   {
     title: "Clientes",
     desciption:
@@ -30,7 +30,6 @@ export const MODULES = [
 export default function Home() {
   return (
     <main>
-      
       <div className="h-[40vh] flex items-center">
         <div className="flex justify-center w-full gap-10 ">
           {MODULES.map((m) => (
